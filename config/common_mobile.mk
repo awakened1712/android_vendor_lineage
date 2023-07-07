@@ -72,6 +72,7 @@ PRODUCT_PACKAGES += \
     IconPackVictorSettingsOverlay \
     IconPackVictorSystemUIOverlay \
     IconShapePebbleOverlay \
+    IconShapeRiceBallsOverlay \
     IconShapeRoundedRectOverlay \
     IconShapeSquareOverlay \
     IconShapeSquircleOverlay \
