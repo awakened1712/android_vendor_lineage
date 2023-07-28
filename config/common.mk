@@ -222,6 +222,10 @@ CUSTOM_LOCALES += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/crowdin/overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/crowdin/overlay
 
+# Wallpaper
+PRODUCT_COPY_FILES += \
+    vendor/lineage/config/permissions/com.google.android.apps.wallpaper.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.google.android.apps.wallpaper.xml
+
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     vendor/lineage/build/target/product/security/lineage
 
