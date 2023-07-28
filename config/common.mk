@@ -163,12 +163,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/lineage/prebuilt/common/etc/init/init.openssh.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.openssh.rc
 
-# Prebuilt packages
-PRODUCT_PACKAGES += \
-    PixelThemesStubPrebuilt \
-    PixelThemesStub2022_and_newerPrebuilt \
-    WallpaperPickerGoogleReleasePrebuilt
-
 # rsync
 PRODUCT_PACKAGES += \
     rsync
